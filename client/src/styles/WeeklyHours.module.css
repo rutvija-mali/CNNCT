@@ -1,0 +1,44 @@
+.container {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  
+  .day-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .time-slot {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  input {
+    width: 50px;
+    padding: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 16px;
+  }
+  
+  .add-btn {
+    color: green;
+    font-size: 20px;
+  }
+  

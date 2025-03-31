@@ -1,0 +1,352 @@
+
+.mainContainer{
+    min-height: 90%;
+    height: auto;
+    overflow-y: auto;
+}
+.container{
+    margin: 0 auto;
+}
+.heroTitle{
+    width: 40%;
+    margin-top: 1.5rem;
+    margin: 0 auto;
+}
+.heroTitle h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 149%;
+    letter-spacing: 1%;
+    text-align: center;
+    vertical-align: center;
+
+}
+.signUpBtn{
+    width: 14.6rem;
+    height: 4.1rem;
+    background-color: var(--accent);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 9.3rem;
+  
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.heroImage {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   margin-top: 1.5rem;
+}
+.secondContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+.secondContainer h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2.57rem;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--black);
+    margin-bottom: 0;
+}
+.secondContainer p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.57rem;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.subSection{
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    color: var(--black);
+    padding-top: 1rem;
+    margin-bottom: 5rem;/*have to remove later*/
+}
+.subSectionInfo{
+    width: 50%;
+    
+}
+.subSectionInfo h2{
+    width: 70%;
+    font-weight: 600;
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    letter-spacing: 0%;
+
+}
+.subSectionInfo p,
+.subSectionInfo ul li{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2.57rem;
+    letter-spacing: 0%;
+
+}
+.subSectionInfo ul li{
+    margin-bottom: 0.3rem;
+}
+
+.subSectionImage{
+   width: 50%;
+   height: auto;
+   position: relative;
+   display: flex;
+   align-items: center;
+}
+
+
+.testimony{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.testimony .testimonyTitle h1{
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: -2%;
+    margin-top: 0;
+}
+
+.testimony .testimonyTitle span{
+  color: var(--accent);
+}
+
+.testimony .testimonyTitle button{
+    border: 2px solid var(--accent);
+    background-color: transparent;
+    color: var(--accent);
+    padding: 0.75rem 1.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-radius: 6.1rem;
+
+}
+
+.reviewSection{
+    display: flex;
+    gap: 0.7rem;
+    width: 25rem;
+    height:20%;
+    align-items: center;
+}
+.flowerSvg{
+    width: 2rem;
+    height: 2rem;
+}
+.reviewSection p{
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    letter-spacing: 0%;
+
+}
+.testimonialContainer{
+    width: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    max-height: auto;
+}
+.linkedAppHeading h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -1.12px;
+    text-align: center;
+}
+.LinkedAppSection{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.appContainer{
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .mainContainer{
+        width: 100vw;
+        height: auto;
+        
+    }
+    .container{
+        width: 100%;
+    
+    }
+    .heroTitle{
+        width: 60%;
+    }
+    .heroImage img{
+        width: 100%;
+        height: 80%;
+       
+       
+    }
+    .subSection{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .subSectionInfo,
+    .subSectionImage {
+        width: 100%;
+   
+    }
+    .subSectionImage {
+        min-height: 450px;
+    }
+
+    .calender1{
+        /* background-color: pink; */
+        height: 400px;
+        z-index: 10;
+
+        transform: translateX(70%);
+    }
+    .calender2{
+        height: 400px;
+        transform: translateX(-60%);
+    }
+    .testimony{
+        width: 90%;
+    }
+    .LinkedAppSection{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .LinkedAppSection{
+       grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+    .heroTitle{
+        width: 80%;
+    }
+    .heroTitle h1{
+        font-size: 3rem;
+    }
+    .heroImage img{
+        width: 100%;
+    }
+    .secondContainer{
+        width: 90%;
+    }
+    .secondContainer h2{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.25rem;
+        line-height: 1.3rem;
+       
+    }
+    .secondContainer p{
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+    .subSectionImage{
+        width: 90%;
+        height: 50%;
+        margin: auto auto;
+        justify-content: center;
+     }
+     .subSectionImage img{
+        width: 80%;
+        height: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+     }
+    .testimony{
+        width: 100%;
+        
+    }
+    .reviewSection{
+        display:none;
+
+    }
+    .testimony .testimonyTitle{
+        width: 95%;
+
+    }
+    .testimony .testimonyTitle h1{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+  
+    .testimonialContainer{
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: mandatory;
+        width: 90%;
+        min-height: auto;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+    .testimonialContainer .card{
+        width: 90%;
+        height: auto;
+    }
+    .linkedAppHeading h2{
+        font-size: 2.5rem;
+        line-height: 3.1rem;
+    }
+    .LinkedAppSection{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .LinkedAppSection{
+       grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 480px) { 
+    .heroTitle{
+        width: 80%;
+        margin-top: 2rem;
+    }
+    .heroTitle h1{
+        font-size: 2rem;
+    }
+   
+    .testimony .testimonyTitle{
+        text-align: center;
+
+    }
+}  
+

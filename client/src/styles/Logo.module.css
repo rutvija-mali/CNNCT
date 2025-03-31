@@ -1,0 +1,10 @@
+.logoContainer{
+    color: var(--black);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.2rem;
+}

@@ -1,0 +1,33 @@
+.mainContainer{
+    width: 90%;
+    min-height: 82px;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.info h5{
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    letter-spacing: -0.2px;
+    text-align: start;
+    margin-bottom: 0;
+}
+.info p{
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1.65rem;
+    letter-spacing: 0.16px;
+    text-align: start;
+    margin-top: 0;
+}
+

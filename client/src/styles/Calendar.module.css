@@ -1,0 +1,14 @@
+/* Container */
+.calendarContainer {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .calendarHeading {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+  }

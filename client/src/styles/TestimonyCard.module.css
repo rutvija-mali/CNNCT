@@ -1,0 +1,100 @@
+.mainContainer{
+    width: 100%;
+    height: 234px;
+    border-radius: 2rem;
+    gap: 0.62rem;
+    background-color: #DEDEDE;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+    margin: 0.2rem 1.8rem;
+    box-sizing: border-box;
+}
+.container h3{
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: -2%;
+}
+.container p{
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+.profile{
+    display: flex;
+    gap: 0.7rem;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+.profile .info span{
+    line-height: 1rem;
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: #3D3D3D;
+    margin-top: 0.2rem;
+}
+@media (max-width: 1024px) {
+    .mainContainer{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        height: 350px;
+    }
+    .container{
+        margin: 0.5rem 2rem;
+   
+    }
+  
+}
+
+@media (max-width: 768px) {
+    .mainContainer{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        height: auto;
+        
+    }
+    .container{
+        margin: 0.5rem 2rem;
+   
+    }
+}
+
+@media (max-width: 480px) { 
+    .mainContainer{
+        width: 90%;
+        margin: 0 auto;
+        height: 300px;
+        flex-wrap: wrap;
+        scroll-snap-align: start;
+    }
+    .container{
+        margin: 0.5rem 1.8rem;
+   
+    }
+    .container h3{
+        font-size: 1.2rem;
+    }
+    .container p{
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+    .profile .info span{
+        line-height: 0.8rem;
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin-top: 0;
+
+    }
+    .profile img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

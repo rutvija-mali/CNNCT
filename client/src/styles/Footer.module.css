@@ -1,0 +1,117 @@
+.mainContainer{
+    width: 80%;
+    min-height: 382px;
+    height: auto;
+    box-shadow: 0px -4px 98.8px 0px #1877F24D;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.conatiner{
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.subSection{
+    display: flex;
+}
+.buttonSection{
+    width: 35%;
+}
+.linksSection{
+    width: 65%;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+.buttonSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.loginBtn{
+  background-color:transparent;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+}
+button{
+    width: 35%;
+    background-color: var(--accent);
+    border: none;
+    color: var(--white);
+    border-radius: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 0.8rem;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+.linksSection a{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    color: #1E2330;
+    text-decoration: none;
+    margin-bottom: 1.25rem;
+    
+}
+.linksSection a:hover{
+    color: #000000;
+}
+.socialSection{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.socialSection p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 1.3rem;
+    letter-spacing: 0.13px;
+    color: #1E2330;
+}
+.socialLinks{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+@media (max-width: 1024px) {
+    .mainContainer{
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+  
+    .linksSection{
+        width: 100%;
+        display: grid;
+        grid-template-columns:  1fr ;
+        align-items: center;
+    }
+    .socialLinks{
+        width: 100%;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) { 
+    .socialLinks img{
+     width: 1.4rem;
+     height: 1.25rem;
+    }
+}

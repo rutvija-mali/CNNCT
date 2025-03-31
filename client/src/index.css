@@ -1,0 +1,22 @@
+:root {
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --white:#FFFFFF;
+  --text-secondary: #666666;
+  --dark-gray:#333333;
+  --accent:#1877F2;
+  --black:#000000;
+  --bg:#F3F3F1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+

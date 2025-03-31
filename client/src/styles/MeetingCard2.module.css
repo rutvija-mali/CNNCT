@@ -1,0 +1,170 @@
+.mainContainer{
+    width: 90%;
+    min-height: 3.62rem;
+    height: auto;
+    margin:0 auto;
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 2rem;
+    position :relative;
+  }
+
+.timeSection p{
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 0.5rem;
+   
+}
+.timeSection .date{
+    color: var(--accent);
+}
+
+.nameSection div p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:1.12rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #6D6D6D;
+    margin-top: 0.5rem;
+    
+}
+.nameSection div p,
+.participents p{
+    margin-bottom: 0;
+}
+.nameSection .name{
+    color: #454545;
+
+}
+.status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.statusButtons{
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    border:3px solid white;
+}
+.statusBtn{
+    width: 6.8rem;
+    height: 2.18rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+ 
+}
+.participents p{
+    height: 100%;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: #6D6D6D;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+
+.status .acceptedBtn{
+    border: 1px solid #00000033;
+    color: var(--black);
+    background-color: transparent;
+}
+.status .rejectedBtn{
+    background-color: #616161;
+    color:var(--white) ;
+    border: 1px solid #FFFFFF33
+}
+
+@media (max-width: 768px) {
+    .mainContainer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .timeSection p{
+        font-size: 0.62rem;
+        
+    }
+    .nameSection{
+        display: flex;
+        gap: 0.3rem;
+    }
+    .nameSection div p,
+    .nameSection p{
+        font-size:0.7rem;
+    }
+    .nameSection img{
+        width: 0.93rem;
+        height: 0.93rem;
+    }
+
+    
+    
+    .statusButtons{
+       gap: 0;
+    }
+
+    .accept{
+    
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        background-color: #00C35F;
+        box-shadow: 0px 2.5px 7.26px 0px #00000040;
+
+    }
+    .reject{
+    
+        
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        box-shadow: 0px 2.5px 7.26px 0px #00000040;
+
+    }
+
+    .statusBtn{
+        width: 60%;
+        font-weight: 400;
+        font-size: 0.56rem;
+    }
+    .statusBtn img{
+       width: 0.87rem;
+       height: 0.87rem;
+    }
+    .participents p{
+      font-size: 0.62rem;
+    }
+    .participents p img{
+        width: 0.93rem;
+        height: 0.93rem;
+    }
+
+    
+
+}

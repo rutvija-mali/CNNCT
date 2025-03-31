@@ -1,0 +1,91 @@
+.mainContainer{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    overflow: auto;
+
+}
+.container{
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+}
+.createMeetingBtn{
+    width: 9.3rem;
+    height: 2.3rem;
+    background-color: transparent;
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    font-family: "Poppins", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.headingSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+}
+.headingSection h3{
+    margin-bottom: 0;
+    font-weight:600;
+    font-size: 1.5rem;
+   
+}
+.headingSection p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 0.87rem;
+}
+
+.meetingCardList{
+ margin-top: 2rem;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ justify-content: center;
+ 
+}
+
+@media (max-width: 768px) {
+    .mainContainer{
+        height: auto;
+        overflow-y: scroll;
+    }
+    .meetingCardList{
+         display: grid;
+         grid-template-columns: 1fr;
+    }
+    .meetingCard{
+        display: flex;
+        justify-content: center;
+    }
+    .headingSection{
+        align-items: start;
+
+     
+    }
+    .createMeetingBtn{
+        width: 200px;
+        height: 25px;
+        font-size: 0.6rem;
+        font-weight: 300;
+       
+    }
+    .headingSection h3{
+        margin-bottom: 0;
+        font-weight:600;
+        font-size: 1.12rem;
+       
+    }
+    .headingSection p{
+        font-weight: 400;
+        font-size: 0.75rem;
+    }
+}

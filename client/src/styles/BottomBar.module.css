@@ -1,0 +1,69 @@
+.mainContainer{
+    max-width: 100%;
+    height:100%;
+    background-color: var(--white);
+    position: relative;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: #D9D9D9;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+ .navlinks {
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+    align-items: center;
+  }
+ 
+  
+  .navlinks .links {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    height: auto;
+    position: relative;
+  }
+  
+  .navlinks .links .link {
+    display: flex;
+    height: 100%;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    color: #676767;
+    padding: 0 12px;
+    position: relative;
+    z-index: 1;
+    
+  }
+  
+  .navlinks .links .active {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: auto;
+    height: 100%;
+    gap: 0.5rem;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    color: var(--accent);
+    padding: 0 12px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+
