@@ -15,12 +15,20 @@ const app = express()
 
 app.use(express.json())
 app.use(cookieParser())
+const allowedOrigins = ['https://cnnct-olive.vercel.app', 'https://cnnct-tmfc.onrender.com'];
+
 app.use(cors({
-  origin:"https://cnnct-olive.vercel.app/",
-  methods:['GET','POST','PUT','DELETE','PATCH'],
-  credentials:true,
-  allowedHeaders:['Content-Type', 'Authorization']
-}))
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
+  credentials: true,
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 app.use(express.urlencoded({extended:true}))
 app.use('/api/users',UserRouter)
 app.use('/api/meetings',MeettingRouter)
