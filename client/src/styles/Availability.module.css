@@ -1,7 +1,7 @@
 .mainContainer{
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    height: auto;
+    overflow: auto;
   }
   .container{
     width: 95%;
@@ -59,9 +59,8 @@
     font-size: 0.75rem;
     color: #676767;
     cursor: pointer;
-   margin-left: 5px;
-   margin-right: 5px;
-    transition: background 0.3s;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   
   .activeBtn{
@@ -73,6 +72,5 @@
     margin-top: 2rem;
     height:auto;
     
-    background-color: aquamarine;
 
   }

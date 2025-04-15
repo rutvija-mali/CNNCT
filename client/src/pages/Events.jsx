@@ -9,15 +9,17 @@ import axios from 'axios';
 import { useAuth } from '../context/AuthProvider';
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 import { toast } from 'react-toastify';
+import { deleteMeeting, fetchMeeting } from '../service/MeetingCard'
 
 const Events = () => {
-  const [meetings,setMeetngs] =useState([])
+  const [meetings,setMeetngs] = useState([])
   const {user,fetchUser} = useAuth()
 console.log("user id in event page: "+user);
 
   useEffect(()=>{
+   
    if(user && user.id){
-    const fetchMeettings = async()=>{
+    const fetchMeetings = async()=>{
       try {
         const response = await axios.get(`${API_BASE_URL}/api/meetings`,{
           params:{hostId:user.id}
@@ -38,11 +40,16 @@ console.log("user id in event page: "+user);
       }
 
     }
-    fetchMeettings();
+    fetchMeetings();
    }
   },[user])
   const {isMobile} = useScreenSize()
   const navigate = useNavigate()
+
+    const  handleDeleteMeeting =(id)=>{
+      deleteMeeting(id)
+      fetchMeeting();
+    }
   return (
     <div className={styles.mainContainer}>
       <div className={styles.container}>
@@ -59,7 +66,7 @@ console.log("user id in event page: "+user);
         <div className={styles.meetingCardList}>
            {meetings.map((meeting,index)=>(
             <div className={styles.meetingCard} key={index}>
-              <MeetingCard meeting={meeting} />
+              <MeetingCard meeting={meeting} handleDeleteMeeting={handleDeleteMeeting} />
             </div>
            ))}
         </div>

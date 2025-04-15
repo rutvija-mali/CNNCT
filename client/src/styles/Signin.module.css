@@ -1,5 +1,5 @@
 .mainContainer{
-    /* background-color: var(--white); */
+    background-color: var(--white);
     background-color: black;
     height: 100dvh;
     display: grid;

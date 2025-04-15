@@ -32,17 +32,23 @@ const UserSchema = new mongoose.Schema({
         enum:["Sales","Education","Finance","Government and politics","Consulting","Recruiting","Tech","Marketing"]
     },
     availability:[{
-        days:{
+        day:{
             type:String,
             required:true,
             enum: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
         },
         slots:[{
-            startTime:{ type:Date},
-            endTime:{type:Date}
-        }]
-
+            startTime:{ type: String, required: true },
+            endTime:{ type: String, required: true },
+            _id: false 
+        }],
+        _id: false 
+  
     }],
+    timeZone:{
+        type:String,
+       
+    },
     createdAt:{
         type:Date,
         default:Date.now

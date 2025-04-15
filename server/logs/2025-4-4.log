@@ -1,0 +1,160 @@
+[2025-04-04T02:25:16.927Z] CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Meeting"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:145:25
+[2025-04-04T02:25:22.040Z] CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Meeting"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:145:25
+[2025-04-04T02:25:27.497Z] CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Meeting"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:145:25
+[2025-04-04T17:31:19.726Z] ReferenceError: mongoose is not defined
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Participants.js:14:29
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:346:12)
+[2025-04-04T17:52:48.150Z] ReferenceError: userObjectId is not defined
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Participants.js:46:88
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:346:12)
+[2025-04-04T17:52:48.165Z] ReferenceError: userObjectId is not defined
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Participants.js:46:88
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:346:12)
+[2025-04-04T17:52:48.184Z] ReferenceError: userObjectId is not defined
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Participants.js:46:88
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:346:12)
+[2025-04-04T17:52:48.200Z] ReferenceError: userObjectId is not defined
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Participants.js:46:88
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:346:12)
+[2025-04-04T17:53:14.485Z] CastError: Cast to ObjectId failed for value "{
+  id: '67e91c8ee2946d0a63ca44ec',
+  email: 'tina@gmail.com',
+  firstName: 'Rucha',
+  lastName: 'Mali',
+  iat: '1743780893',
+  exp: '1743791693'
+}" (type Object) at path "user" for model "Participants"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:319:34)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:76:20)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-04T17:53:14.492Z] CastError: Cast to ObjectId failed for value "{
+  id: '67e91c8ee2946d0a63ca44ec',
+  email: 'tina@gmail.com',
+  firstName: 'Rucha',
+  lastName: 'Mali',
+  iat: '1743780893',
+  exp: '1743791693'
+}" (type Object) at path "user" for model "Participants"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:319:34)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:76:20)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-04T17:53:14.507Z] CastError: Cast to ObjectId failed for value "{
+  id: '67e91c8ee2946d0a63ca44ec',
+  email: 'tina@gmail.com',
+  firstName: 'Rucha',
+  lastName: 'Mali',
+  iat: '1743780893',
+  exp: '1743791693'
+}" (type Object) at path "user" for model "Participants"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:319:34)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:76:20)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-04T17:53:14.518Z] CastError: Cast to ObjectId failed for value "{
+  id: '67e91c8ee2946d0a63ca44ec',
+  email: 'tina@gmail.com',
+  firstName: 'Rucha',
+  lastName: 'Mali',
+  iat: '1743780893',
+  exp: '1743791693'
+}" (type Object) at path "user" for model "Participants"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:319:34)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:76:20)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

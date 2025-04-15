@@ -10,6 +10,7 @@ import axios from 'axios'
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 import { toast } from 'react-toastify';
 import {useAuth} from '../context/AuthProvider'
+import { fetchMeeting,saveMeeting,updatedMeeting } from '../service/MeetingCard'
 
 
 const AddEvent = () => {
@@ -42,29 +43,11 @@ const AddEvent = () => {
 
   });
   const {id:id} = useParams()
-  
-  const fetchMeeting = async()=>{ 
-   try {
-    const response =  await axios.get(`${API_BASE_URL}/api/meetings/${id}`)
-      if(response.status === 200){
-        formData(response.data)
-      }
-   } catch (error) {
-    toast.error(error.message||'Something went wrong!', {
-      position: 'top-right',
-      autoClose: 3000, // Auto close in 3 seconds
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-    });
-   }
-  }
-  
+
   useEffect(() => {
     if(id){
-     fetchMeeting()
+      fetchMeeting(setFormData,setBgColor,setOverlayText,setFile,setImage,id);
+     
     }else{
     setFormData((prevData) => ({
       ...prevData,
@@ -109,10 +92,38 @@ const AddEvent = () => {
   // Handle next button click
   const handleClickNext = (e) => {
     e.preventDefault();
-    console.log('log');
+    const isValid = validateFirstFormSection();
+    if (!isValid) {
+      toast.error("Please fill all required fields correctly.");
+      return;
+    }
     setNext(true);
-    console.log('isNext ' + isNext);
   };
+  const validateFirstFormSection = ()=>{
+    if(formData.topic.trim() === ''){
+      return false
+    }
+    if(formData.hostName.trim() === '' ){
+      return false
+    }
+    if(formData.date === ''|| formData.amPm === ''|| formData.time === ''||formData.timeZone === ''){
+      return false
+    }
+    if(formData.duration === ''){
+      return false
+    }
+    return true
+  }
+
+const validateSecondFormSection =()=>{
+  if(formData.link === ''){
+    return false
+  }
+  if (formData.emails.trim() === '') {
+    return false;
+  }
+  return true
+}
 
  
 const combinedDateTime = moment.tz(
@@ -126,63 +137,37 @@ const combinedDateTime = moment.tz(
   //handleSubmit
   const handleSubmit = async(e)=>{
     e.preventDefault()
+    if(!validateSecondFormSection()){
+      toast.error("Please fill all required fields correctly.");
+      return
+    }
     const newFormData = new FormData();
     Object.entries(formData).forEach(([key, value]) => {
       newFormData.append(key, value);
     });
 
+   if(!id){
     newFormData.append("startTime", combinedDateTime);
     newFormData.append("bannerColor", bgColor);
     newFormData.append("bannerText", overlayText);
+
+   }else{
+    newFormData.set("startTime", combinedDateTime);
+    newFormData.set("bannerColor", bgColor);
+    newFormData.set("bannerText", overlayText);
+
+   }
 
     if (file) {
       newFormData.append("file", file);
 
     }
-    try {
-      setLoading(true)
-      const response= await axios.post(`${API_BASE_URL}/api/meetings/`,newFormData)
-      if(response.status === 201){
-        toast.success('Meeting created successfully!', {
-          position: 'top-right',
-          autoClose: 3000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-        }); 
-        setFormData({
-          topic: '',
-          password: '',
-          hostName:userName,
-          description: '',
-          date: '',
-          time: '',
-          amPm: 'PM',
-          timeZone: '',
-          duration: 15,
-          link: '',
-          emails: ''
-      
-        }) 
-        setBgColor('')
-        setOverlayText('Enter text')
-        setFile('')
-       setLoading(false)
+
+      if(id){
+        updatedMeeting(id,newFormData,setLoading,setFormData,setBgColor,setOverlayText,setFile,userName);
+      }else{
+        saveMeeting(newFormData,setLoading,setFormData,setBgColor,setOverlayText,setFile,userName)
       }
-    } catch (error) {
-      setLoading(false)
-       toast.error(error.message||'Something went wrong!', {
-        position: 'top-right',
-        autoClose: 3000, // Auto close in 3 seconds
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-      });
-    }
   }
 
   return (
@@ -254,7 +239,7 @@ const combinedDateTime = moment.tz(
                 <div className={styles.line}></div>
 
                 <div className={styles.formGroup}>
-                  <label htmlFor="date&time">Date and time</label>
+                  <label htmlFor="date&time">Date and time<span>*</span></label>
                   <div className={styles.dateTimeGroup}>
                     <input  name="date" type="date" value={formData.date} onChange={handleChange} />
                     <input  name='time' type="time" value={formData.time} onChange={handleChange}/>
@@ -279,7 +264,7 @@ const combinedDateTime = moment.tz(
 
                 <div className={styles.formGroup}>
                   <label htmlFor="duration">Duration <span>*</span></label>
-                  <select name="duration" id="duration" className={styles.duration} onChange={handleChange}  > 
+                  <select name="duration" id="duration" className={styles.duration} onChange={handleChange} value={formData.duration||30} > 
                     {durationOptions.map((duration) => (
                       <option key={duration.value} value={duration.value}>
                         {duration.label}

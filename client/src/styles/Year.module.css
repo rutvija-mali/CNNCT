@@ -1,0 +1,63 @@
+.year {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .month {
+    margin: 5px 5px 15px 5px;
+  }
+  
+  .monthName {
+    color:var(--accent);
+    font-weight: bold;
+  }
+  
+  .day {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    
+  }
+  
+  .date {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    background-color: var(--white);
+    outline: none;
+    margin:2px 0;
+    padding: 0;
+  }
+  
+  .date.inMonth:hover {
+    cursor: pointer;
+    background: var(--accent);
+    color: var(--white);
+  }
+  
+  .today {
+    background: var(--accent);
+  }
+  
+  .date.prevMonth,
+  .date.nextMonth {
+    color: grey;
+  }
+
+  .eventDot {
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 2px auto 0 auto;
+  }
+  

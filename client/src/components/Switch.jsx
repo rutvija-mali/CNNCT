@@ -1,11 +1,9 @@
 import { useState } from "react";
 import styles from "../styles/Switch.module.css"; 
 
-const Switch = ({ onChange }) => {
-    const [isOn, setIsOn] = useState(false);
-
+const Switch = ({ isOn, onChange }) => {
+  
     const toggleSwitch = () => {
-        setIsOn(!isOn);
         if (onChange) {
             onChange(!isOn);
         }

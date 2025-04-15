@@ -35,6 +35,11 @@ const MeetingSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    status:{
+      type:String,
+      enum:["active","inactive"],
+      default:'inactive'
+    },
     bannerImg: {
         type: String,
         required: true
@@ -52,14 +57,14 @@ const MeetingSchema = new mongoose.Schema({
         required: true
     },
     participants: [{ 
-        type:[ mongoose.Schema.Types.ObjectId],
+        type:mongoose.Schema.Types.ObjectId,
         ref: "Participants" 
     }],
     createdAt: {
         type: Date,
         default: Date.now
-    }
-    
+    },
+
 });
 
 export default mongoose.model('Meeting', MeetingSchema);

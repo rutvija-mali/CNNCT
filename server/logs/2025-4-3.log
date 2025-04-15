@@ -1,0 +1,246 @@
+[2025-04-02T18:32:36.299Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:202:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:202:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-02T18:33:54.750Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:202:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:202:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-02T18:37:24.701Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:204:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:204:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-02T18:40:48.466Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:205:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:205:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-02T18:42:18.746Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:205:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:205:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-02T18:44:08.297Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:209:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:209:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-02T18:45:36.920Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:209:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:209:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-03T01:52:49.334Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:209:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:209:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-03T01:57:16.990Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:209:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:209:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-03T01:58:08.411Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:209:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:209:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-03T02:07:54.475Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:210:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:210:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-03T02:18:53.387Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:212:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:212:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-03T02:25:56.253Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:212:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:212:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-03T02:30:12.887Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:212:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:212:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-03T03:06:36.506Z] TypeError: Cannot read properties of undefined (reading 'id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:247:38
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:365:14)
+[2025-04-03T03:08:02.467Z] TypeError: Cannot read properties of undefined (reading 'id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:249:38
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:365:14)
+[2025-04-03T03:09:23.567Z] TypeError: Cannot read properties of undefined (reading 'id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:249:38
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:365:14)
+[2025-04-03T03:10:15.664Z] TypeError: Cannot read properties of undefined (reading 'id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:249:38
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:365:14)
+[2025-04-03T03:11:37.362Z] TypeError: Cannot read properties of undefined (reading 'id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:251:38
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:365:14)
+[2025-04-03T03:14:26.423Z] TypeError: Cannot read properties of undefined (reading 'id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:251:38
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:365:14)
+[2025-04-03T03:15:45.730Z] TypeError: Cannot read properties of undefined (reading 'id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:250:38
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:365:14)
+[2025-04-03T03:17:26.747Z] TypeError: Cannot read properties of undefined (reading 'id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:250:38
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/middlewares/auth.js:20:9)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:365:14)
+[2025-04-03T03:18:13.647Z] TypeError: Cannot read properties of undefined (reading 'id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:252:38
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-03T03:18:47.702Z] TypeError: Cannot read properties of undefined (reading 'id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:252:38
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-03T03:19:44.540Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:254:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-03T03:26:43.694Z] CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Meeting"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:139:25
+[2025-04-03T11:45:26.428Z] ValidationError: Meeting validation failed: duration: Path `duration` is required.
+    at Document.invalidate (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:3329:32)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:3090:17
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+[2025-04-03T11:45:43.081Z] ValidationError: Meeting validation failed: duration: Path `duration` is required.
+    at Document.invalidate (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:3329:32)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:3090:17
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+[2025-04-03T16:36:06.842Z] ReferenceError: moment is not defined
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:97:25
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:47:12)
+[2025-04-03T16:36:06.865Z] ReferenceError: moment is not defined
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:97:25
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:47:12)
+[2025-04-03T16:37:13.557Z] ReferenceError: moment is not defined
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:99:25
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:47:12)
+[2025-04-03T16:37:13.585Z] ReferenceError: moment is not defined
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:99:25
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\index.js:47:12)

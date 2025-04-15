@@ -13,13 +13,13 @@ export default function Logout() {
   const[isOpen,setIsOpen] = useState(false)
   const navigate =useNavigate()
   const {isMobile} = useScreenSize()
-  const {fetchUser} = useAuth()
+  const {fetchUser ,user} = useAuth()
   const handleLogout = ()=>{
       try {
         axios.post(`${API_BASE_URL}/api/users/logout`)
         .then((response)=>{
           if(response.status == 200){
-            toast.success('User created successfully!', {
+            toast.success('User log out successfully!', {
               position: 'top-right',
               autoClose: 3000,
               hideProgressBar: false,
@@ -48,7 +48,7 @@ export default function Logout() {
    <div className={styles.mainConatienre}>
        { !isMobile && <button className={styles.profileSection} onClick={()=>setIsOpen((prev)=>!prev)} >
             <img src={ProfilePic} alt="" />
-           User name
+           {user?`${user.firstName} ${user.lastName}`:'Username'}
         </button>}
         {isMobile && 
           <img src={ProfilePic} alt="" className={styles.profile} onClick={()=>setIsOpen((prev)=>!prev)}/>

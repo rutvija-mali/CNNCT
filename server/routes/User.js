@@ -54,7 +54,8 @@ UserRouter.post('/login',errorLogger,async(req,res)=>{
                 id:existingUser._id,
                 email : existingUser.email,
                 firstName:existingUser.firstName,
-                lastName:existingUser.lastName
+                lastName:existingUser.lastName,
+                timeZone:existingUser.timeZone
             },process.env.JWT_SECRET,{expiresIn:'3hr'})
             res.cookie('token',token, {
               httpOnly: true,
@@ -139,6 +140,22 @@ UserRouter.post('/logout', async(req,res)=>{
    secure:true
   })
   res.status(200).json({ message: 'User logged out successfully' });
+})
+
+UserRouter.patch('/:id', async (req,res)=>{
+    try {
+        const id = req.params.id
+        const {availability,timeZone} = req.body
+        
+        const updatedUser = await User.findByIdAndUpdate(id,{availability:availability,timeZone:timeZone},{new:true})
+        if(!updatedUser){
+            return res.status(404).json({message:'User not found'})
+        }
+
+        return res.status(200).json(updatedUser)
+    } catch (error) {
+        errorLogger(error,req,res)
+    }
 })
 export default UserRouter;
 

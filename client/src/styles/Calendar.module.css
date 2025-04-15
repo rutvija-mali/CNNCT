@@ -1,14 +1,231 @@
 /* Container */
+.mainContainer{
+  width: auto;
+  height: auto;
+  background-color: aqua;
+}
 .calendarContainer {
-    padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    padding-top: 0;
   }
   
   /* Header */
   .calendarHeading {
     font-size: 20px;
     color: #333;
-    margin-bottom: 5px;
   }
+  .mainContainer{
+    width: 100%;
+    background-color: aquamarine;
+    min-height:80% ;
+    height: auto;
+    border: 1.5px solid #00000059;
+    background-color: var(--white);
+    border-radius: 1.5rem; 
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .headerContainer{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid #00000059;
+    display: flex;
+    gap: 5rem;
+    padding: 1.5rem 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .headerContainer .header{
+   padding-left: 3rem;
+  }
+  .headerContainer .header h3{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 0rem;
+  }
+
+  .headerContainer .header p{
+    font-weight: 300;
+    width: 150px;
+    font-size: 0.75rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 0;
+    color: var(--accent);
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+  }
+  .PrevBtn{
+
+    display: flex;
+    gap: 0.1rem;
+  }
+
+  .PrevBtn button{
+    background-color: #F4F4F5;
+    height: 1.75rem;
+    color: #18181B;
+    margin-top: 0;
+    padding-top: 0.2rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: center;
+    cursor: pointer;
+  }
+  .prevBtn{
+    width: 1.12rem;
+    border-radius: 0;
+    border-top-left-radius: 5.7px;
+    border-bottom-left-radius: 5.7px;
+    padding: 0;
+    text-align: center;
+    vertical-align: center;
+   
+  }
+
+  .nextBtn{
+    width: 1.12rem;
+    border-radius: 0;
+    border-top-right-radius: 5.7px;
+    border-bottom-right-radius: 5.7px;
+    padding: 0;
+    
+  }
+  .PrevBtn .day{
+    width: 4rem;
+    border-radius: 0;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 15.2px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+  }
+
+  .toolBarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    height: 10%;
+    padding-bottom: 0.5rem;
+
+  }
+
+  .viewBtnContainer{
+    display: flex;
+    width: 40%;
+    margin-top: 0;
+    padding: 0;
+    align-items: center;
+    height: 100%;
+
+  }
+  .viewBtns{
+    height: 28px;
+    border-radius: 7.6px;
+    padding: 0.28rem 0.85rem !important;
+    margin: 0;
+    background-color: transparent;
+    font-family: Inter;
+    font-weight: 500;
+    font-size:0.87rem;
+    line-height: 1.18rem;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #71717A;
+
+  }
+
+  .searchbarContainer{
+    width: 11rem;
+    height: 1.56rem;
+    border-radius: 3.8px;
+    position: relative;
+  }
+  .searchbarContainer .icon{
+    position: absolute;
+    left: 0.3rem;
+    top: 0.3rem;
+  }
+  .searchbar{
+    width: 100%;
+    height: 100%;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.2px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    border: 0;
+    text-indent: 2rem;
+    background-color: #F4F4F5;
+  }
+  .searchbar.placeholder{
+    color: #A1A1AA;
+    
+  }
+  .customDateHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 0;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    
+  }
+  
+  .customDateHeader .day {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 0.62rem;
+    line-height: 0.75rem;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #71717A;   
+    text-align: start; 
+  }
+  
+  .customDateHeader .date {
+    font-size: 1.37rem;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-align: start;
+
+
+  }
+  
+  .today {
+    background-color: #e0f2fe; 
+    border-radius: 8px;
+    padding: 4px;
+  }
+  
+
+  :global(.rbc-allday-cell) {
+    height: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+  }
+:global(.rbc-time-header-cell) {
+  height: 4rem;
+}
+:global(.rbc-timeslot-group) {
+  box-shadow: -1px -1px 0px 0px #E0E0E0 inset;
+  min-height: 4rem;
+}
+:global(.rbc-time-view) {
+  scrollbar-gutter: stable both-edges;
+}

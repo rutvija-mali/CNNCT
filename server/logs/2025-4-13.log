@@ -1,0 +1,27 @@
+[2025-04-12T19:26:57.292Z] ValidationError: Meeting validation failed: startTime: Cast to date failed for value "null" (type string) at path "startTime", topic: Path `topic` is required., timeZone: Path `timeZone` is required., bannerColor: Path `bannerColor` is required., bannerImg: Path `bannerImg` is required., link: Path `link` is required.
+    at Document.invalidate (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:3329:32)
+    at model.$set (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:1480:12)
+    at model.$set (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:1132:16)
+    at model.Document (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\model.js:128:12)
+    at new model (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\model.js:4800:15)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:41:20
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at done (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\multer\lib\make-middleware.js:47:7)
+[2025-04-12T19:27:02.545Z] ValidationError: Meeting validation failed: startTime: Cast to date failed for value "null" (type string) at path "startTime", topic: Path `topic` is required., timeZone: Path `timeZone` is required., bannerColor: Path `bannerColor` is required., bannerImg: Path `bannerImg` is required., link: Path `link` is required.
+    at Document.invalidate (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:3329:32)
+    at model.$set (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:1480:12)
+    at model.$set (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:1132:16)
+    at model.Document (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\model.js:128:12)
+    at new model (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\model.js:4800:15)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:41:20
+    at Layer.handle [as handle_request] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\express\lib\router\route.js:149:13)
+    at done (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\multer\lib\make-middleware.js:47:7)
+[2025-04-12T19:27:59.455Z] ValidationError: Meeting validation failed: bannerImg: Path `bannerImg` is required., link: Path `link` is required.
+    at Document.invalidate (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:3329:32)
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:3090:17
+    at C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)

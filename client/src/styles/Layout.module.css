@@ -8,9 +8,12 @@
 }
 .sidebar{
     width: 20%;
+    min-height: 100%;
+    height: auto;
+    background-color: rgb(35, 89, 89);
 }
 .mainContent{
-    width: 80%;
+    width: 90%;
     height: 90%;
  
 }

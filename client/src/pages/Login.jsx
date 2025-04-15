@@ -6,12 +6,15 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 import { toast } from 'react-toastify';
+import { useAuth } from '../context/AuthProvider';
 
 const Login = () => {
   const [formData, setFormData] = useState({
     username:'',
     password: '',
   });
+  
+const {fetchUser} = useAuth()
 const navigate = useNavigate()
 const [loading,setLoading] =useState(false)
 const validateForm = () => {
@@ -47,6 +50,7 @@ const handleSubmit = async(event) => {
           username:'',
           password: ''
         })
+        fetchUser()
         navigate('/layout')
       }
     setLoading(false)

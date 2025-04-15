@@ -1,0 +1,45 @@
+[2025-04-02T08:21:19.053Z] CastError: Cast to ObjectId failed for value "login" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/User.js:122:22
+[2025-04-02T08:46:31.706Z] CastError: Cast to ObjectId failed for value "login" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/User.js:122:22
+[2025-04-02T08:54:27.255Z] CastError: Cast to ObjectId failed for value "login" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/User.js:122:22
+[2025-04-02T18:18:10.480Z] ValidationError: Meeting validation failed: startTime: Cast to date failed for value "[ '2025-04-02T12:13:00.000Z', '2025-04-02T12:13:00.000Z' ]" (type Array) at path "startTime", bannerColor: Cast to string failed for value "[ '#000000', '#000000' ]" (type Array) at path "bannerColor", bannerText: Cast to string failed for value "[ 'Enter text', 'Enter text' ]" (type Array) at path "bannerText"
+    at Document.invalidate (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:3329:32)
+    at model.$set (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\document.js:1480:12)
+    at model.set [as startTime] (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\helpers\document\compile.js:205:19)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:223:34
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-02T18:27:23.591Z] TypeError: Cannot read properties of null (reading '_id')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:202:69
+    at Array.map (<anonymous>)
+    at methods.<computed> (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\CNNCT\server\node_modules\mongoose\lib\types\array\methods\index.js:1054:24)
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/CNNCT/server/routes/Meeting.js:202:58
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
