@@ -43,9 +43,16 @@ function MeetingCard({meeting ,handleDeleteMeeting}) {
   };
     
     const navigate = useNavigate()
-  
-    const startTime = moment(meeting.startTime).tz(user?.timeZone).format("h:mm A");
-    const endTime = moment(meeting.startTime).add(meeting.duration,'minutes').format('h:mm A')
+      const startTime = (meeting?.startTime && user?.timeZone)
+      ? moment(meeting.startTime).tz(user.timeZone).format("h:mm A")
+      : "Invalid Start Time";
+
+      const endTime = (meeting?.startTime)
+      ? moment(meeting.startTime).add(meeting.duration, 'minutes').format("h:mm A")
+      : "Invalid End Time";
+      console.log("startTime raw:", meeting.startTime);
+      console.log("timezone:", user?.timeZone);
+
 
 
    
