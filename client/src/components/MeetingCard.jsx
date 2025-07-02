@@ -18,7 +18,7 @@ import errorSvg from '../assets/material-symbols_error.svg'
 function MeetingCard({meeting ,handleDeleteMeeting}) {
     const [status, setStatus] = useState(meeting.status === 'active'?true:false)
    const {user} = useAuth();
-    console.log(user?.timeZone);
+    console.log("user time zone ",user?.timeZone);
     
    const handleSwitchChange = async (newState) => {
     setStatus(newState); // this updates the UI
