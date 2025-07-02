@@ -100,6 +100,8 @@ const AddEvent = () => {
     setNext(true);
   };
   const validateFirstFormSection = ()=>{
+    console.log(formData);
+    
     if(formData.topic.trim() === ''){
       return false
     }

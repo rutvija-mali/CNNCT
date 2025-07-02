@@ -88,7 +88,6 @@ UserRouter.put('/preference',async(req,res)=>{
 })
 UserRouter.get('/me',authMiddleware,async(req,res)=>{
     try {
-     console.log(req.user);
      
      res.status(200).json(req.user)
     } catch (error) {
