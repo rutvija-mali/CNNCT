@@ -18,7 +18,6 @@ import errorSvg from '../assets/material-symbols_error.svg'
 function MeetingCard({meeting ,handleDeleteMeeting}) {
     const [status, setStatus] = useState(meeting.status === 'active'?true:false)
    const {user} = useAuth();
-    console.log("user object ",user);
     
    const handleSwitchChange = async (newState) => {
     setStatus(newState); // this updates the UI
@@ -44,17 +43,13 @@ function MeetingCard({meeting ,handleDeleteMeeting}) {
     
     const navigate = useNavigate()
       const startTime = (meeting?.startTime && user?.timeZone)
-      ? moment(meeting.startTime).tz(user.timeZone).format("h:mm A")
+      ? moment(meeting.startTime).tz(user.timeZone || "Asia/Calcutta").format("h:mm A")
       : "Invalid Start Time";
 
       const endTime = (meeting?.startTime)
       ? moment(meeting.startTime).add(meeting.duration, 'minutes').format("h:mm A")
       : "Invalid End Time";
-      console.log("startTime raw:", meeting.startTime);
-      console.log("timezone:", user?.timeZone);
-
-
-
+     
    
   return (
     <div className={status ?styles.mainContainer : styles.inactive}>
